@@ -1,4 +1,4 @@
-{
+  {
     "artist-details": {
       "id": 1,
       "name": "Artist Name",
@@ -18,4 +18,5 @@
       { "id": 3, "title": "Popular Album 3", "releaseYear": 2016 }
     ]
   }
+
   
