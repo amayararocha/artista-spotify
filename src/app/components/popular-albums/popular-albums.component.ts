@@ -1,12 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ArtistService } from '../../services/artist.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-popular-albums',
-  standalone: true,
-  imports: [],
   templateUrl: './popular-albums.component.html',
-  styleUrl: './popular-albums.component.css'
+  styleUrls: ['./popular-albums.component.css'],
+  standalone: true,
+  imports: [CommonModule], 
 })
-export class PopularAlbumsComponent {
+export class PopularAlbumsComponent implements OnInit {
+  albums: any[] = [];
 
+  constructor(private artistService: ArtistService) {}
+
+  ngOnInit(): void {
+    this.artistService.getPopularAlbums().subscribe((data) => {
+      this.albums = data;
+    });
+  }
 }

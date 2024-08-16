@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common'; 
+import { ArtistDetailsComponent } from './components/artist-details/artist-details.component';
+import { TopSongsComponent } from './components/top-songs/top-songs.component';
+import { PopularAlbumsComponent } from './components/popular-albums/popular-albums.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true,
+  imports: [CommonModule, ArtistDetailsComponent, TopSongsComponent, PopularAlbumsComponent, NavbarComponent, FooterComponent], 
+
 })
-export class AppComponent {
-  title = 'artista-spotify';
-}
+export class AppComponent { }

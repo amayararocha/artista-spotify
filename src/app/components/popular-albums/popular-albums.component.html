@@ -1,1 +1,9 @@
-<p>popular-albums works!</p>
+<div class="max-w-lg mx-auto my-8 p-6 bg-white rounded-lg shadow-lg">
+    <h3 class="text-2xl font-bold mb-4">Popular Albums</h3>
+    <ul>
+      <li *ngFor="let album of albums" class="mb-2">
+        <span class="font-medium">{{ album.title }}</span> - Released in {{ album.releaseYear }}
+      </li>
+    </ul>
+  </div>
+  
