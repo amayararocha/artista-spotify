@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ArtistService } from '../../services/artist.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-artist-details',
@@ -10,13 +11,4 @@ import { ArtistService } from '../../services/artist.service';
   imports: [CommonModule], 
 })
 export class ArtistDetailsComponent {
-  artist: any;
-
-  constructor(private artistService: ArtistService) {}
-
-  ngOnInit(): void {
-    this.artistService.getArtistDetails().subscribe((data) => {
-      this.artist = data;
-    });
-  }
 }

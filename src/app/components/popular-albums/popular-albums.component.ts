@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { ArtistService } from '../../services/artist.service';
+import { Component} from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,14 +8,5 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule], 
 })
-export class PopularAlbumsComponent implements OnInit {
-  albums: any[] = [];
-
-  constructor(private artistService: ArtistService) {}
-
-  ngOnInit(): void {
-    this.artistService.getPopularAlbums().subscribe((data) => {
-      this.albums = data;
-    });
-  }
-}
+export class PopularAlbumsComponent{
+ }

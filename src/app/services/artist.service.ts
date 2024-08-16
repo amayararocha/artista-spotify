@@ -11,14 +11,14 @@ export class ArtistService {
   constructor(private http: HttpClient) {}
 
   getArtistDetails(): Observable<any> {
-    return this.http.get<any>(`${this.apiUrl}/artist`);
+    return this.http.get<any>(`${this.apiUrl}/artist-details`);
   }
 
   getTopSongs(): Observable<any> {
-    return this.http.get<any>(`${this.apiUrl}/songs`);
+    return this.http.get<any>(`${this.apiUrl}/top-songs`);
   }
 
   getPopularAlbums(): Observable<any> {
-    return this.http.get<any>(`${this.apiUrl}/albums`);
+    return this.http.get<any>(`${this.apiUrl}/popular-albums`);
   }
 }

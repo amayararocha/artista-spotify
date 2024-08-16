@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common'; 
+import { Component} from '@angular/core';
 import { ArtistService } from '../../services/artist.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-top-songs',
@@ -9,14 +9,5 @@ import { ArtistService } from '../../services/artist.service';
   standalone: true,
   imports: [CommonModule], 
 })
-export class TopSongsComponent implements OnInit {
-  songs: any[] = [];
-
-  constructor(private artistService: ArtistService) {}
-
-  ngOnInit(): void {
-    this.artistService.getTopSongs().subscribe((data) => {
-      this.songs = data;
-    });
-  }
+export class TopSongsComponent {
 }
