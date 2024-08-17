@@ -1,12 +1,40 @@
 <div class="flex flex-col items-center justify-center min-h-screen p-6">
-  <div *ngFor="let artist of artistDetails" class="bg-white rounded-lg shadow-md p-6 mb-6 w-full max-w-md flex flex-col items-center">
-    <img [src]="artist.image" alt="{{ artist.name }}" class="w-32 h-32 object-cover rounded-full">
-    <div class="text-center mt-4">
-      <h2 class="text-2xl font-bold text-gray-800">{{ artist.name }}</h2>
-      <p class="text-gray-600 mt-2">{{ artist.bio }}</p>
-      <div class="mt-4">
-        <p class="text-gray-700"><span class="font-semibold">Followers:</span> {{ artist.followers }}</p>
-        <p class="text-gray-700"><span class="font-semibold">Popularity:</span> {{ artist.popularity }}</p>
+  <div class="flex items-center mb-6 w-full max-w-screen-lg">
+    <input 
+      type="text" 
+      placeholder="Search artist..." 
+      [(ngModel)]="searchTerm"
+      class="p-2 border border-gray-300 rounded mr-2 w-full max-w-xs"
+      (input)="filterArtists()"
+    />
+    <button 
+      (click)="filterArtists()"
+      class="bg-blue-950 text-white p-2 rounded hover:bg-blue-800"
+    >
+      Search
+    </button>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-screen-lg">
+    <div *ngFor="let artist of filteredArtists" class="bg-white rounded-lg shadow-md p-4 flex flex-col justify-between h-full">
+      <div class="flex flex-col items-center mb-4">
+        <img [src]="artist.image" alt="{{ artist.name }}" class="w-20 h-20 object-cover rounded-full mb-4">
+        <div class="text-center">
+          <h2 class="text-lg font-bold text-gray-800">{{ artist.name }}</h2>
+          <p class="text-gray-600 mt-1 text-sm">{{ artist.bio }}</p>
+        </div>
+      </div>
+      <div class="text-gray-700 text-sm mt-auto">
+        <div class="flex justify-between">
+          <div class="text-left">
+            <p><span class="font-semibold">Followers</span></p>
+            <p class="text-gray-600">{{ artist.followers }}</p>
+          </div>
+          <div class="text-right">
+            <p><span class="font-semibold">Popularity</span></p>
+            <p class="text-gray-600">{{ artist.popularity }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
