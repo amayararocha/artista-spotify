@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Bruno Mars",
-      "bio": "Bruno Mars, nascido Peter Gene Hernandez em 8 de outubro de 1985 em Honolulu, Havai, é um cantor, compositor e produtor musical. Conhecido por seu estilo que mistura pop, funk, R&B e soul, Mars ganhou fama com seu álbum de estreia 'Doo-Wops & Hooligans' (2010) e hits como 'Just the Way You Are' e 'Grenade'. Ele já ganhou vários prêmios, incluindo Grammys, e é famoso por suas performances energéticas.",
+      "bio": "Bruno Mars, born Peter Gene Hernandez on October 8, 1985, in Honolulu, Hawaii, is a singer, songwriter, and record producer. Known for his pop, funk, R&B, and soul styles, Mars rose to fame with his debut album 'Doo-Wops & Hooligans' (2010) and hits like 'Just the Way You Are' and 'Grenade'. He has won several awards, including Grammys, and is renowned for his energetic performances.",
       "image": "https://conteudo.imguol.com.br/c/entretenimento/36/2023/09/04/bruno-mars-entrega-o-melhor-show-do-the-town-ate-aqui-1693797454929_v2_4x3.jpg",
       "followers": 1200000,
       "popularity": 85
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Adele",
-      "bio": "Adele Laurie Blue Adkins, nascida em 5 de maio de 1988 em Tottenham, Londres, é uma cantora e compositora britânica. Conhecida por sua voz poderosa e letras emotivas, Adele ganhou reconhecimento mundial com seu álbum '19' e subsequentemente com '21', '25' e '30'. Ela já ganhou vários Grammys e um Oscar.",
+      "bio": "Adele Laurie Blue Adkins, born on May 5, 1988, in Tottenham, London, is a British singer and songwriter. Known for her powerful voice and emotional lyrics, Adele gained global recognition with her debut album '19' and subsequently with '21', '25', and '30'. She has won multiple Grammys and an Oscar.",
       "image": "https://s2-g1.glbimg.com/ieW-FyjIQdtMAdFCDjPvRAGZFSg=/0x0:8640x5760/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/q/A/PbBjaFRSmsBplGxftCHA/adele-1.jpg",
       "followers": 3000000,
       "popularity": 90
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Ed Sheeran",
-      "bio": "Edward Christopher Sheeran, nascido em 17 de fevereiro de 1991 em Halifax, Inglaterra, é um cantor, compositor e produtor musical. Sheeran ganhou fama com seu álbum de estreia '+', seguido por 'x', '÷' e '='. Conhecido por suas baladas e letras introspectivas, ele é um dos artistas mais vendidos do mundo.",
+      "bio": "Edward Christopher Sheeran, born February 17, 1991, in Halifax, England, is a singer, songwriter, and record producer. Sheeran gained fame with his debut album '+', followed by 'x', '÷', and '='. Known for his ballads and introspective lyrics, he is one of the best-selling music artists in the world.",
       "image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_1156802643_395407.jpg",
       "followers": 3500000,
       "popularity": 88
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Taylor Swift",
-      "bio": "Taylor Alison Swift, nascida em 13 de dezembro de 1989 em Reading, Pennsylvania, é uma cantora e compositora americana. Iniciou sua carreira na música country antes de fazer a transição para o pop. Seus álbuns incluem 'Fearless', '1989', 'Reputation' e 'Lover'. Swift é conhecida por suas letras pessoais e engajamento com seus fãs.",
+      "bio": "Taylor Alison Swift, born December 13, 1989, in Reading, Pennsylvania, is an American singer and songwriter. She began her career in country music before transitioning to pop. Her albums include 'Fearless', '1989', 'Reputation', and 'Lover'. Swift is known for her personal lyrics and engagement with her fans.",
       "image": "https://media.vanityfair.com/photos/602c3ead87fe511dd1a37efb/master/w_2560%2Cc_limit/VF1421_Taylor_Swift_Lede.jpg",
       "followers": 4000000,
       "popularity": 92
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "name": "The Weeknd",
-      "bio": "Abel Makkonen Tesfaye, conhecido profissionalmente como The Weeknd, é um cantor, compositor e produtor musical canadense. Ele ganhou fama com seu álbum 'Starboy' e sucessos como 'Blinding Lights' e 'Can't Feel My Face'. The Weeknd é conhecido por sua voz distinta e estilo inovador.",
+      "bio": "Abel Makkonen Tesfaye, known professionally as The Weeknd, is a Canadian singer, songwriter, and record producer. He gained fame with his album 'Starboy' and hits like 'Blinding Lights' and 'Can't Feel My Face'. The Weeknd is known for his distinctive voice and innovative style.",
       "image": "https://midias.correiobraziliense.com.br/_midias/jpg/2021/06/30/1000x1000/1_the_weeknd_desenvolve_serie_para_a_hbo_em_parceria_com_o_criador_de_euphoria-6735943.jpg?20220427162337?20220427162337",
       "followers": 3500000,
       "popularity": 89
@@ -43,30 +43,248 @@
     {
       "id": 6,
       "name": "Lady Gaga",
-      "bio": "Stefani Joanne Angelina Germanotta, conhecida como Lady Gaga, é uma cantora, compositora e atriz americana. Com seu álbum de estreia 'The Fame', ela conquistou a fama global com hits como 'Poker Face' e 'Bad Romance'. Lady Gaga é conhecida por sua voz poderosa e performances teatrais.",
+      "bio": "Stefani Joanne Angelina Germanotta, known professionally as Lady Gaga, is an American singer, songwriter, and actress. She gained fame with her debut album 'The Fame', and worldwide success with hits like 'Poker Face' and 'Bad Romance'. Lady Gaga is known for her powerful voice and theatrical performances.",
       "image": "https://www.revistalofficiel.com.br/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F46743%2F1670592015-lady-gaga-capa-easy-resize-com.jpg%3Fauto%3Dformat%252Ccompress%26cs%3Dsrgb&w=3840&q=75",
       "followers": 2400000,
       "popularity": 87
+    },
+    {
+      "id": 7,
+      "name": "Dua Lipa",
+      "bio": "Dua Lipa, born August 22, 1995, in London, is a British singer and songwriter. She gained prominence with her debut self-titled album and the global hit 'New Rules'. Known for her powerful voice and modern style, Dua Lipa is one of the most influential artists of the present day.",
+      "image": "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3363969:1683033894/dua-lipa.jpg?f=default&$p$f=0d1b285",
+      "followers": 2900000,
+      "popularity": 91
+    },
+    {
+      "id": 8,
+      "name": "Khalid",
+      "bio": "Khalid Donnel Robinson, known as Khalid, was born on October 11, 1998, in Fort Stewart, Georgia. He gained prominence with his debut album 'American Teen', and is known for his songs that blend R&B, pop, and hip-hop.",
+      "image": "https://rollingstone.com.br/media/_versions/legacy/2017/img-1046674-khalid_widelg.jpg",
+      "followers": 2200000,
+      "popularity": 84
     }
   ],
   "top-songs": [
-    { "id": 1, "title": "Hit Song 1", "plays": 5000000 },
-    { "id": 2, "title": "Hit Song 2", "plays": 4000000 },
-    { "id": 3, "title": "Hit Song 3", "plays": 3000000 },
-    { "id": 4, "title": "Hit Song 4", "plays": 2500000 },
-    { "id": 5, "title": "Hit Song 5", "plays": 2000000 },
-    { "id": 6, "title": "Hit Song 6", "plays": 1500000 },
-    { "id": 7, "title": "Hit Song 7", "plays": 1200000 },
-    { "id": 8, "title": "Hit Song 8", "plays": 1000000 }
+    {
+      "id": 1,
+      "title": "Blinding Lights",
+      "artistId": 5,
+      "plays": 5000000
+    },
+    {
+      "id": 2,
+      "title": "Shape of You",
+      "artistId": 3,
+      "plays": 4000000
+    },
+    {
+      "id": 3,
+      "title": "Hello",
+      "artistId": 2,
+      "plays": 3500000
+    },
+    {
+      "id": 4,
+      "title": "Uptown Funk",
+      "artistId": 1,
+      "plays": 3000000
+    },
+    {
+      "id": 5,
+      "title": "Bad Romance",
+      "artistId": 6,
+      "plays": 2800000
+    },
+    {
+      "id": 6,
+      "title": "Someone Like You",
+      "artistId": 2,
+      "plays": 2500000
+    },
+    {
+      "id": 7,
+      "title": "Thinking Out Loud",
+      "artistId": 3,
+      "plays": 2000000
+    },
+    {
+      "id": 8,
+      "title": "Love Story",
+      "artistId": 4,
+      "plays": 1800000
+    },
+    {
+      "id": 9,
+      "title": "Don't Start Now",
+      "artistId": 7,
+      "plays": 1700000
+    },
+    {
+      "id": 10,
+      "title": "Young Dumb & Broke",
+      "artistId": 8,
+      "plays": 1600000
+    }
   ],
   "popular-albums": [
-    { "id": 1, "title": "Popular Album 1", "releaseYear": 2020 },
-    { "id": 2, "title": "Popular Album 2", "releaseYear": 2018 },
-    { "id": 3, "title": "Popular Album 3", "releaseYear": 2016 },
-    { "id": 4, "title": "Popular Album 4", "releaseYear": 2021 },
-    { "id": 5, "title": "Popular Album 5", "releaseYear": 2019 },
-    { "id": 6, "title": "Popular Album 6", "releaseYear": 2022 },
-    { "id": 7, "title": "Popular Album 7", "releaseYear": 2023 },
-    { "id": 8, "title": "Popular Album 8", "releaseYear": 2024 }
+    {
+      "id": 1,
+      "title": "25",
+      "artistId": 2,
+      "releaseYear": 2015
+    },
+    {
+      "id": 2,
+      "title": "After Hours",
+      "artistId": 5,
+      "releaseYear": 2020
+    },
+    {
+      "id": 3,
+      "title": "Divide",
+      "artistId": 3,
+      "releaseYear": 2017
+    },
+    {
+      "id": 4,
+      "title": "Lover",
+      "artistId": 4,
+      "releaseYear": 2019
+    },
+    {
+      "id": 5,
+      "title": "Unorthodox Jukebox",
+      "artistId": 1,
+      "releaseYear": 2012
+    },
+    {
+      "id": 6,
+      "title": "ARTPOP",
+      "artistId": 6,
+      "releaseYear": 2013
+    },
+    {
+      "id": 7,
+      "title": "Future Nostalgia",
+      "artistId": 7,
+      "releaseYear": 2020
+    },
+    {
+      "id": 8,
+      "title": "American Teen",
+      "artistId": 8,
+      "releaseYear": 2017
+    },
+    {
+      "id": 9,
+      "title": "Folklore",
+      "artistId": 4,
+      "releaseYear": 2020
+    },
+    {
+      "id": 10,
+      "title": "No.6 Collaborations Project",
+      "artistId": 3,
+      "releaseYear": 2019
+    },
+    {
+      "id": 11,
+      "title": "Born This Way",
+      "artistId": 6,
+      "releaseYear": 2011
+    },
+    {
+      "id": 12,
+      "title": "H.E.R.",
+      "artistId": 8,
+      "releaseYear": 2021
+    },
+    {
+      "id": 13,
+      "title": "Future Nostalgia",
+      "artistId": 7,
+      "releaseYear": 2020
+    },
+    {
+      "id": 14,
+      "title": "Goodbye Yellow Brick Road",
+      "artistId": 5,
+      "releaseYear": 1973
+    },
+    {
+      "id": 15,
+      "title": "Melodrama",
+      "artistId": 2,
+      "releaseYear": 2017
+    },
+    {
+      "id": 16,
+      "title": "The Fame Monster",
+      "artistId": 6,
+      "releaseYear": 2009
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Doo-Wops & Hooligans",
+      "artistId": 1,
+      "releaseYear": 2010
+    },
+    {
+      "id": 2,
+      "title": "Folk",
+      "artistId": 4,
+      "releaseYear": 2022
+    },
+    {
+      "id": 3,
+      "title": "Evermore",
+      "artistId": 4,
+      "releaseYear": 2020
+    },
+    {
+      "id": 4,
+      "title": "Starboy",
+      "artistId": 5,
+      "releaseYear": 2016
+    },
+    {
+      "id": 5,
+      "title": "In the Lonely Hour",
+      "artistId": 3,
+      "releaseYear": 2014
+    },
+    {
+      "id": 6,
+      "title": "No.6 Collaborations Project",
+      "artistId": 3,
+      "releaseYear": 2019
+    },
+    {
+      "id": 7,
+      "title": "Reputation",
+      "artistId": 4,
+      "releaseYear": 2017
+    },
+    {
+      "id": 8,
+      "title": "Love",
+      "artistId": 4,
+      "releaseYear": 2020
+    },
+    {
+      "id": 9,
+      "title": "Future Nostalgia",
+      "artistId": 7,
+      "releaseYear": 2020
+    },
+    {
+      "id": 10,
+      "title": "American Teen",
+      "artistId": 8,
+      "releaseYear": 2017
+    }
   ]
 }

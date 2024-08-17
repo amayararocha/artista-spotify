@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { ArtistService } from '../../services/artist.service';
 import { ArtistDetails } from '../../models/artist.model';
 import { NgFor } from '@angular/common';
-import { FormsModule } from '@angular/forms'; // Importando FormsModule
+import { FormsModule } from '@angular/forms'; 
 
 @Component({
   selector: 'app-artist-details',
   templateUrl: './artist-details.component.html',
   styleUrls: ['./artist-details.component.css'],
   standalone: true,
-  imports: [NgFor, FormsModule] // Adicionando FormsModule e NgModel aqui
+  imports: [NgFor, FormsModule] 
 })
 export class ArtistDetailsComponent implements OnInit {
   artistDetails: ArtistDetails[] = [];
