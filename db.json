@@ -1,0 +1,23 @@
+{
+    "artist-details": [
+      {
+        "id": 1,
+        "name": "Bruno Mars",
+        "bio": "Bruno Mars, nascido Peter Gene Hernandez em 8 de outubro de 1985 em Honolulu, Havai, é um cantor, compositor e produtor musical. Conhecido por seu estilo que mistura pop, funk, R&B e soul, Mars ganhou fama com seu álbum de estreia 'Doo-Wops & Hooligans' (2010) e hits como 'Just the Way You Are' e 'Grenade'. Ele já ganhou vários prêmios, incluindo Grammys, e é famoso por suas performances energéticas.",
+        "image": "https://conteudo.imguol.com.br/c/entretenimento/36/2023/09/04/bruno-mars-entrega-o-melhor-show-do-the-town-ate-aqui-1693797454929_v2_4x3.jpg",
+        "followers": 1200000,
+        "popularity": 85
+      }
+    ],
+    "top-songs": [
+      { "id": 1, "title": "Hit Song 1", "plays": 5000000 },
+      { "id": 2, "title": "Hit Song 2", "plays": 4000000 },
+      { "id": 3, "title": "Hit Song 3", "plays": 3000000 }
+    ],
+    "popular-albums": [
+      { "id": 1, "title": "Popular Album 1", "releaseYear": 2020 },
+      { "id": 2, "title": "Popular Album 2", "releaseYear": 2018 },
+      { "id": 3, "title": "Popular Album 3", "releaseYear": 2016 }
+    ]
+  }
+  

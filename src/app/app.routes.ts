@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { provideRouter, Routes } from '@angular/router';
 import { ArtistDetailsComponent } from './components/artist-details/artist-details.component';
 import { PopularAlbumsComponent } from './components/popular-albums/popular-albums.component';
 import { TopSongsComponent } from './components/top-songs/top-songs.component';

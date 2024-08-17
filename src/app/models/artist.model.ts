@@ -20,7 +20,7 @@ export interface PopularAlbum {
 }
 
 export interface Artist {
-  'artist-details': ArtistDetails;
-  'top-songs': TopSong[];
-  'popular-albums': PopularAlbum[];
+  artistDetails: ArtistDetails[]; 
+  topSongs: TopSong[];
+  popularAlbums: PopularAlbum[];
 }
