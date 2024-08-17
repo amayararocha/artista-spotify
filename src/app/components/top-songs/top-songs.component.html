@@ -1,5 +1,36 @@
-<div class="max-w-lg mx-auto my-8 p-6 bg-white rounded-lg shadow-lg">
-  <h3 class="text-2xl font-bold mb-4">Top Songs</h3>
-  <ul class="list-disc pl-6">
-  </ul>
+<div class="flex flex-col items-center justify-center min-h-screen p-6">
+  <div class="flex items-center mb-8 w-full max-w-screen-lg">
+    <input 
+      type="text" 
+      placeholder="Search song..." 
+      [(ngModel)]="searchTerm"
+      class="p-2 border border-gray-300 rounded mr-2 w-full max-w-xs"
+      (input)="filterSongs()"
+    />
+    <button 
+      (click)="filterSongs()"
+      class="bg-blue-950 text-white p-2 rounded hover:bg-blue-800"
+    >
+      Search
+    </button>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-screen-lg">
+    <div *ngFor="let song of filteredSongs" class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+      <div class="p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h4 class="text-lg font-semibold text-gray-900 w-48">{{ song.title }}</h4>
+          <div class="text-blue-950">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3.75c4.556 0 8.25 3.694 8.25 8.25s-3.694 8.25-8.25 8.25S3.75 16.556 3.75 12 7.444 3.75 12 3.75zm0-1.5C6.615 2.25 2.25 6.615 2.25 12S6.615 21.75 12 21.75 21.75 17.385 21.75 12 17.385 2.25 12 2.25z"></path>
+              <path d="M15.53 8.47a.75.75 0 00-1.06 1.06L15.94 11h-5.69a.75.75 0 000 1.5h5.69l-1.47 1.47a.75.75 0 101.06 1.06l2.75-2.75a.75.75 0 000-1.06l-2.75-2.75z"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="text-gray-700 text-sm">
+          <p>Plays: <span class="font-medium">{{ song.plays }}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

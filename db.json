@@ -125,6 +125,42 @@
       "title": "Young Dumb & Broke",
       "artistId": 8,
       "plays": 1600000
+    },
+    {
+      "id": 11,
+      "title": "Levitating",
+      "artistId": 7,
+      "plays": 2300000
+    },
+    {
+      "id": 12,
+      "title": "The Lazy Song",
+      "artistId": 1,
+      "plays": 1900000
+    },
+    {
+      "id": 13,
+      "title": "Just the Way You Are",
+      "artistId": 1,
+      "plays": 2500000
+    },
+    {
+      "id": 14,
+      "title": "Grenade",
+      "artistId": 1,
+      "plays": 2800000
+    },
+    {
+      "id": 15,
+      "title": "Someone Like You",
+      "artistId": 2,
+      "plays": 2500000
+    },
+    {
+      "id": 16,
+      "title": "Rolling in the Deep",
+      "artistId": 2,
+      "plays": 2700000
     }
   ],
   "popular-albums": [
