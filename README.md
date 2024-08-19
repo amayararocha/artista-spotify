@@ -41,9 +41,9 @@ npm install
 O projeto já inclui um arquivo db.json na raiz do projeto com a estrutura necessária para o JSON Server.
 
 Para iniciar o JSON Server, execute o comando:
-
+```bash
 json-server --watch db.json --port 5000
-
+```
 Isso iniciará o JSON Server na porta 5000, e a API estará disponível em http://localhost:5000.
 
 4. **Executando o Projeto Angular**
