@@ -16,7 +16,6 @@ Este projeto é uma aplicação Angular que utiliza JSON Server para gerenciar e
 - **Angular**: Framework para construção da SPA (Single Page Application)
 - **JSON Server**: Simulador de API REST para criar uma API fake
 - **Tailwind CSS**: Biblioteca de estilização
-- **RxJS**: Biblioteca para programação reativa
 - **TypeScript**: Linguagem utilizada para desenvolvimento
 
 ## Configuração do Projeto
