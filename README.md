@@ -1,27 +1,55 @@
-# ArtistaSpotify
+# Projeto ArtistHub 🎙️🎶
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+## Descrição
 
-## Development server
+Este projeto é uma aplicação Angular que utiliza JSON Server para gerenciar e simular um banco de dados. A aplicação permite adicionar e listar detalhes de artistas, músicas mais tocadas e álbuns populares.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- Adicionar detalhes de artistas
+- Adicionar músicas mais tocadas
+- Adicionar álbuns populares
+- Listar todos os detalhes de artistas, músicas e álbuns
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- **Angular**: Framework para construção da SPA (Single Page Application)
+- **JSON Server**: Simulador de API REST para criar uma API fake
+- **Tailwind CSS**: Biblioteca de estilização
+- **RxJS**: Biblioteca para programação reativa
+- **TypeScript**: Linguagem utilizada para desenvolvimento
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Configuração do Projeto
 
-## Running unit tests
+### Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js
+- npm ou yarn
 
-## Running end-to-end tests
+### Instalação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone o repositório:**
 
-## Further help
+```bash
+git clone https://github.com/amayararocha/artisthub.git
+cd artisthub
+```
+2. **Instalando Dependências:**
+```bash
+npm install
+```
+3. **Configuração do JSON Server**
+O projeto já inclui um arquivo db.json na raiz do projeto com a estrutura necessária para o JSON Server.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para iniciar o JSON Server, execute o comando:
+
+json-server --watch db.json --port 5000
+
+Isso iniciará o JSON Server na porta 5000, e a API estará disponível em http://localhost:5000.
+
+4. **Executando o Projeto Angular**
+Inicie a aplicação Angular com o seguinte comando:
+```bash
+ng serve
+```
+A aplicação estará disponível em http://localhost:4200. 
