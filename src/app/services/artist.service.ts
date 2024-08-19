@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ArtistDetails, TopSong, PopularAlbum } from '../models/artist.model';
 import { HttpClient } from '@angular/common/http';
+import { ArtistDetails, TopSong, PopularAlbum } from '../models/artist.model';
 
 @Injectable({
   providedIn: 'root'
@@ -21,5 +21,17 @@ export class ArtistService {
 
   getPopularAlbums(): Observable<PopularAlbum[]> {
     return this.http.get<PopularAlbum[]>(`${this.apiUrl}/popular-albums`);
+  }
+
+  addArtistDetail(artistDetail: ArtistDetails): Observable<ArtistDetails> {
+    return this.http.post<ArtistDetails>(`${this.apiUrl}/artist-details`, artistDetail);
+  }
+
+  addTopSong(topSong: TopSong): Observable<TopSong> {
+    return this.http.post<TopSong>(`${this.apiUrl}/top-songs`, topSong);
+  }
+
+  addPopularAlbum(popularAlbum: PopularAlbum): Observable<PopularAlbum> {
+    return this.http.post<PopularAlbum>(`${this.apiUrl}/popular-albums`, popularAlbum);
   }
 }

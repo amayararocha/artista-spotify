@@ -1,0 +1,60 @@
+<div class="flex flex-col items-center min-h-screen p-6">
+    <div class="w-full max-w-4xl bg-white p-8 shadow-lg rounded-lg">
+      <h2 class="text-2xl font-semibold mb-6 text-center text-blue-950">Add New Content</h2>
+      <form (ngSubmit)="addArtistDetail()" class="mb-6">
+        <h3 class="text-xl font-semibold mb-4">Artist Details</h3>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="name">Name</label>
+          <input id="name" [(ngModel)]="newArtistDetail.name" name="name" type="text" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter name">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="bio">Bio</label>
+          <textarea id="bio" [(ngModel)]="newArtistDetail.bio" name="bio" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter bio"></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="image">Image URL</label>
+          <input id="image" [(ngModel)]="newArtistDetail.image" name="image" type="text" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter image URL">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="followers">Followers</label>
+          <input id="followers" [(ngModel)]="newArtistDetail.followers" name="followers" type="number" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter number of followers">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="popularity">Popularity</label>
+          <input id="popularity" [(ngModel)]="newArtistDetail.popularity" name="popularity" type="number" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter popularity rating">
+        </div>
+        <button type="submit" class="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors duration-300">
+          Add Artist Details
+        </button>
+      </form>
+      <form (ngSubmit)="addTopSong()" class="mb-6">
+        <h3 class="text-xl font-semibold mb-4">Top Song</h3>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="songTitle">Title</label>
+          <input id="songTitle" [(ngModel)]="newTopSong.title" name="songTitle" type="text" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter song title">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="songPlays">Plays</label>
+          <input id="songPlays" [(ngModel)]="newTopSong.plays" name="songPlays" type="number" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter number of plays">
+        </div>
+        <button type="submit" class="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors duration-300">
+          Add Top Song
+        </button>
+      </form>
+      <form (ngSubmit)="addPopularAlbum()">
+        <h3 class="text-xl font-semibold mb-4">Popular Album</h3>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="albumTitle">Title</label>
+          <input id="albumTitle" [(ngModel)]="newPopularAlbum.title" name="albumTitle" type="text" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter album title">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="releaseYear">Release Year</label>
+          <input id="releaseYear" [(ngModel)]="newPopularAlbum.releaseYear" name="releaseYear" type="number" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter release year">
+        </div>
+        <button type="submit" class="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors duration-300">
+          Add Album
+        </button>
+      </form>
+    </div>
+  </div>
+  
